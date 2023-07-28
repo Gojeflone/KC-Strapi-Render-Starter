@@ -29,6 +29,18 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::author.author"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "performance",
+        "small business",
+        "web development",
+        "marketing",
+        "design"
+      ],
+      "required": true,
+      "default": "web development"
     }
   }
 }
