@@ -41,6 +41,14 @@
       ],
       "required": true,
       "default": "web development"
+    },
+    "HeaderImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
